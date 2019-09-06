@@ -1,5 +1,5 @@
 # Your Code Here
 def my_own_map(ary)
-  yield 
+  yield(ary)
   return ary
 end
