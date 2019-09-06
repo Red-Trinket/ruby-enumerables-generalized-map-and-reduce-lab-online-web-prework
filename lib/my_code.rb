@@ -1,5 +1,5 @@
 # Your Code Here
-def my_own_map(ary, block)
-  ary.map block
-  ary 
+def my_own_map(ary)
+  yield 
+  puts ary
 end
