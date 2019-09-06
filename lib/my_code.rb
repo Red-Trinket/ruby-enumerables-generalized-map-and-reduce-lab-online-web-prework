@@ -2,7 +2,7 @@
 def my_map(array)
   new_array = []
 
-  for element in array
+  while i < array.length
     new_array.push yield(array[i])
   end
 
