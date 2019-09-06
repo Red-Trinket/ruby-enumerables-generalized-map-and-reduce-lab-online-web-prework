@@ -10,4 +10,5 @@ def map(array)
 end
 
 def reduce(array, start = 0)
-  
+  if start
+    sum = start
