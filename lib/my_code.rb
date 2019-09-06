@@ -1,7 +1,7 @@
 # Your Code Here
 def my_map(array)
   new_array = []
-
+  i = 0 
   while i < array.length
     new_array.push(yield(array[i]))
     i += 1 
